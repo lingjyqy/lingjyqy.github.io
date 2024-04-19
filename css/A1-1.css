@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body,
+div,
+ol,
+li,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+body {
+  background-image: url("../img/white.jpg");
+}
+
+#all {
+  width: 1000px;
+  /*    background: #C6696A;*/
+  margin: 0 auto;
+
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.title {
+  height: 100px;
+  border-bottom: 2px #7E3839 solid;
+}
+
+p {
+  text-indent: 2em;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+
+/* #foot {
+  width: 100%;
+  background: url("../img/bg_c1.jpg");
+  height: 150px;
+  padding-top: 20px;
+  color: #000000;
+} */
